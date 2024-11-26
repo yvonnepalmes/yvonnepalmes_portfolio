@@ -1,0 +1,186 @@
+.introduction {
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    align-items: center; 
+    margin: 20px;
+}
+
+.intro-content {
+    margin-right: 20px; 
+}
+
+.profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+body {
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7cac9;
+}
+
+header {
+    background: 	#b4c8ea;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    flex-direction: column;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f7cac9;;
+    text-decoration: none;
+}
+
+.introduction, .skills, .featured-projects, .personal-info, .experience {
+    padding: 20px;
+    margin: 20px;
+    background: #f7cac9;
+    border-radius: 5px;
+}
+
+.about -container {
+    max-width: 800px; 
+    margin: 50px auto;
+    padding: 20px;
+    background: #b4c8ea
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: Left;
+    color: 	#91a8d0
+}
+
+h3 {
+    text-align: Left;
+    color: 	#91a8d0
+}
+
+.about-content {
+    margin-right: 20px; 
+}
+
+.about-image {
+    margin-left: 70%;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.contact-container {
+    max-width: 800px; 
+    margin: 50px auto;
+    margin-right: 20%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+h2 {
+    text-align: center;
+    color: 	#91a8d0
+}
+
+.contact-form {
+    margin-bottom: 30px;
+    margin-right: 6%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffdcdb
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffdcdb
+    border-radius: 5px;
+    width: 100%; 
+}
+
+.send-button {
+    padding: 10px;
+    background: #b4c8ea
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.send-button:hover {
+    background: #b4c8ea
+}
+
+.contact-info {
+    max-width: 800px;  
+    margin: 0 auto; 
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    color: #070707;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-image {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #b4c8ea
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
